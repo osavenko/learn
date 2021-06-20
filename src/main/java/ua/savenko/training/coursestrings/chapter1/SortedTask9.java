@@ -1,11 +1,10 @@
 package ua.savenko.training.coursestrings.chapter1;
 
-import java.util.Arrays;
 import java.util.Comparator;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-import static java.util.stream.Collectors.*;
+import static java.util.stream.Collectors.toMap;
 
 public class SortedTask9 {
     public LinkedHashMap<String, Long> getUniqueWordsCounter(String text) {
